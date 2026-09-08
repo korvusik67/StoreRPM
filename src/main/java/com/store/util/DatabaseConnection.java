@@ -7,9 +7,9 @@ import java.sql.SQLException;
 
 public class DatabaseConnection {
     // параметры подключения для openserver
-    private static final String URL = "jdbc:mysql://localhost:3306/catalog";
-    private static final String USER = "root";
-    private static final String PASSWORD = "";
+    static final String URL = "jdbc:mysql://localhost:3306/catalog";
+    static final String USER = "root";
+    static final String PASSWORD = "";
 
 
     public static Connection getConnection() throws SQLException {

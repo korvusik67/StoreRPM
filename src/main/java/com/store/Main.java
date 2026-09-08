@@ -3,11 +3,15 @@ package com.store;
 import com.store.controller.StoreController;
 import com.store.model.Product;
 import com.store.model.dto.ProductData;
+import com.store.util.DatabaseMigration;
 
 import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
+        //применяем миграии эшкере67
+        DatabaseMigration.migrate();
+
         System.out.println("Управление каталогом товаров\n");
 
         StoreController controller = new StoreController();
