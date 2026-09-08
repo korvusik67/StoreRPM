@@ -1,4 +1,4 @@
-package com.store;
+package com.store.controller;
 
 public class StoreController {
 }
