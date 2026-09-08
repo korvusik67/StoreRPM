@@ -50,7 +50,7 @@ public class Product {
 
     @Override
     public String toString() {
-        return String.format("Product{id=%d, name='%s', category='%s', price=%.2f, quantity=%d}",
+        return String.format(" id=%d, название='%s', категория='%s', цена=%.2f, количество=%d",
                 id, name, category, price, quantity);
     }
 }

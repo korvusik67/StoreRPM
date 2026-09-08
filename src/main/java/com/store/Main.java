@@ -8,7 +8,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("=== управление каталогом товаров ===\n");
+        System.out.println("Управление каталогом товаров\n");
 
         StoreController controller = new StoreController();
 
