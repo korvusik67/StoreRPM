@@ -5,8 +5,8 @@
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.catalog</groupId>
-    <artifactId>catalog-manager</artifactId>
+    <groupId>com.store</groupId>
+    <artifactId>StoreRPM1</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
@@ -17,22 +17,18 @@
     </properties>
 
     <dependencies>
-        <!-- mysql драйвер для openserver -->
+        <!-- mysql драйвер -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.33</version>
         </dependency>
 
+        <!-- flyway 6.5.7 - поддерживает mysql 5.7 -->
         <dependency>
             <groupId>org.flywaydb</groupId>
             <artifactId>flyway-core</artifactId>
-            <version>9.22.3</version>
-        </dependency>
-        <dependency>
-            <groupId>org.flywaydb</groupId>
-            <artifactId>flyway-mysql</artifactId>
-            <version>9.22.3</version>
+            <version>6.5.7</version>
         </dependency>
     </dependencies>
 </project>
